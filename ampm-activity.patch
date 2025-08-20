@@ -1,0 +1,15 @@
+diff --git a/src/contexts/ActivityContext.tsx b/src/contexts/ActivityContext.tsx
+--- a/src/contexts/ActivityContext.tsx
++++ b/src/contexts/ActivityContext.tsx
+@@ -172,1 +172,1 @@
+-      now.toLocaleTimeString("en-US", { hour12: false, hour: "2-digit", minute: "2-digit" });
++      now.toLocaleTimeString("en-US", { hour12: true, hour: "2-digit", minute: "2-digit" });
+@@ -240,1 +240,1 @@
+-      time: sleepStartTime.toLocaleTimeString("en-US", { hour12: false, hour: "2-digit", minute: "2-digit" }),
++      time: sleepStartTime.toLocaleTimeString("en-US", { hour12: true, hour: "2-digit", minute: "2-digit" }),
+@@ -242,1 +242,1 @@
+-      sleepStart: sleepStartTime.toLocaleTimeString("en-US", { hour12: false, hour: "2-digit", minute: "2-digit" })
++      sleepStart: sleepStartTime.toLocaleTimeString("en-US", { hour12: true, hour: "2-digit", minute: "2-digit" })
+@@ -243,1 +243,1 @@
+-      sleepEnd: end.toLocaleTimeString("en-US", { hour12: false, hour: "2-digit", minute: "2-digit" }),
++      sleepEnd: end.toLocaleTimeString("en-US", { hour12: true, hour: "2-digit", minute: "2-digit" }),
