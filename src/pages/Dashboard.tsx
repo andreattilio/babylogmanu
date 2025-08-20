@@ -94,7 +94,7 @@ const Dashboard = () => {
       subtype: pendingFeedType,
       amount: pendingFeedAmount,
       icon: pendingFeedType === "formula" ? "🍼" : "🤱",
-      time: adjustedTime.toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute: '2-digit' })
+      time: adjustedTime.toLocaleTimeString('en-US', { hour12: true, hour: '2-digit', minute: '2-digit' })
     });
 
     toast({
@@ -120,7 +120,7 @@ const Dashboard = () => {
       type: "diaper",
       subtype: pendingDiaperType,
       icon: pendingDiaperType === "pee" ? "💧" : "💩",
-      time: adjustedTime.toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute: '2-digit' })
+      time: adjustedTime.toLocaleTimeString('en-US', { hour12: true, hour: '2-digit', minute: '2-digit' })
     });
     
     toast({
@@ -153,7 +153,7 @@ const Dashboard = () => {
       type: "sleep",
       subtype: "start",
       icon: "😴",
-      time: adjustedTime.toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute: '2-digit' })
+      time: adjustedTime.toLocaleTimeString('en-US', { hour12: true, hour: '2-digit', minute: '2-digit' })
     });
 
     toast({

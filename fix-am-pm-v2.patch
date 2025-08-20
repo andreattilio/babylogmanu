@@ -1,0 +1,27 @@
+diff --git a/src/contexts/ActivityContext.tsx b/src/contexts/ActivityContext.tsx
+--- a/src/contexts/ActivityContext.tsx
++++ b/src/contexts/ActivityContext.tsx
+@@
+-      now.toLocaleTimeString("en-US", { hour12: false, hour: "2-digit", minute: "2-digit" });
++      now.toLocaleTimeString("en-US", { hour12: true, hour: "2-digit", minute: "2-digit" });
+@@
+-      time: sleepStartTime.toLocaleTimeString("en-US", { hour12: false, hour: "2-digit", minute: "2-digit" }),
++      time: sleepStartTime.toLocaleTimeString("en-US", { hour12: true, hour: "2-digit", minute: "2-digit" }),
+@@
+-      sleepStart: sleepStartTime.toLocaleTimeString("en-US", { hour12: false, hour: "2-digit", minute: "2-digit" })
++      sleepStart: sleepStartTime.toLocaleTimeString("en-US", { hour12: true, hour: "2-digit", minute: "2-digit" })
+@@
+-      sleepEnd: end.toLocaleTimeString("en-US", { hour12: false, hour: "2-digit", minute: "2-digit" }),
++      sleepEnd: end.toLocaleTimeString("en-US", { hour12: true, hour: "2-digit", minute: "2-digit" }),
+diff --git a/src/pages/Dashboard.tsx b/src/pages/Dashboard.tsx
+--- a/src/pages/Dashboard.tsx
++++ b/src/pages/Dashboard.tsx
+@@
+-      time: adjustedTime.toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute: '2-digit' })
++      time: adjustedTime.toLocaleTimeString('en-US', { hour12: true, hour: '2-digit', minute: '2-digit' })
+@@
+-      time: adjustedTime.toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute: '2-digit' })
++      time: adjustedTime.toLocaleTimeString('en-US', { hour12: true, hour: '2-digit', minute: '2-digit' })
+@@
+-      time: adjustedTime.toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute: '2-digit' })
++      time: adjustedTime.toLocaleTimeString('en-US', { hour12: true, hour: '2-digit', minute: '2-digit' })
